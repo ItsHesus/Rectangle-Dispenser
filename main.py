@@ -4,9 +4,11 @@ import os
 
 bot = commands.Bot(command_prefix='!')
 
-token = "OTc5NjM0NjMxNDUwMTY1MjY4.GLt1DH.P69RkeuiToOTjHLU6hKxL3rLMKp-KyFUQld3Vg"
+#Input your bot Token here.
+token = "TokenTokenToken"
 
-userIDS = [296154342870876160,258362462661771266,125456524041650177,127254522186694661]
+#Input the Discord ID's of the users you want to be able to use the !add and !delete commands.
+userIDS = [ID1, ID2, ID3, ...]
 
 if not (os.path.isfile('response.txt')):
     f= open("response.txt","w+")
